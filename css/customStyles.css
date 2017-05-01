@@ -1,0 +1,43 @@
+#mainNav {
+  border-color: rgba(152, 58, 58, 0.3);
+  background-color: #9d0501; }
+  #mainNav > div {
+    background: rgba(171, 12, 2, 0.42); }
+  #mainNav div.navbar-header a {
+    color: white; }
+  #mainNav div.navbar-header button {
+    color: white; }
+
+#about {
+  background: linear-gradient(to bottom right, #9c0300, #c5852b); }
+  #about a {
+    color: #f05f40;
+    text-decoration: none; }
+
+#page-top #contact {
+  background: linear-gradient(to bottom right, #9c0300, #c5852b); }
+  #page-top #contact h2, #page-top #contact p, #page-top #contact hr, #page-top #contact i, #page-top #contact a {
+    color: white; }
+  #page-top #contact a {
+    text-decoration: none; }
+
+#bs-example-navbar-collapse-1 > ul li a {
+  color: white; }
+
+header {
+  background-position: 70%; }
+
+#page-top header p {
+  color: white;
+  width: 50%; }
+
+@media (min-width: 768px) {
+  header {
+    background-position: center; }
+    header .header-content .header-content-inner p {
+      margin-left: 0; }
+
+  #page-top header p {
+    width: 100%; } }
+
+/*# sourceMappingURL=customStyles.css.map */

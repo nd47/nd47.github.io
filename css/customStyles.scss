@@ -1,0 +1,75 @@
+#mainNav {
+    border-color: rgba(152, 58, 58, 0.3);
+    background-color: #9d0501; 
+    > div{
+        background: rgba(171, 12, 2, 0.42); 
+    }
+    div.navbar-header {
+        a{
+            color: white;
+        }
+        button{
+            color: white;
+        }
+    } 
+}
+#about {
+    background : linear-gradient(to bottom right, #9c0300, #c5852b);
+    a {
+        color: #f05f40;
+        text-decoration: none;
+    }
+}
+
+#page-top #contact {
+    background : linear-gradient(to bottom right, #9c0300, #c5852b);
+    h2,p, hr, i, a{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+#bs-example-navbar-collapse-1 {
+    > ul li{
+         a {
+             color: white;
+         }
+    }
+} 
+
+header {
+    background-position: 70%;
+}
+
+#page-top {
+    header{
+        p {
+            color: white;
+            width: 50%;
+        }   
+    }
+    
+}
+
+@media (min-width: 768px) {
+    header {
+        .header-content .header-content-inner p{
+            margin-left: 0;
+        }
+        background-position: center;
+    }
+    
+    #page-top {
+        header{
+            p {
+                width: 100%;
+            }   
+        }
+    }
+}
+
+
+
+
+
