@@ -8,6 +8,9 @@
   #mainNav div.navbar-header button {
     color: white; }
 
+#hours img {
+  width: 80%; }
+
 #about {
   background: linear-gradient(to bottom right, #9c0300, #c5852b); }
   #about a {
@@ -36,6 +39,9 @@ header {
     background-position: center; }
     header .header-content .header-content-inner p {
       margin-left: 0; }
+
+  #hours img {
+    width: 50%; }
 
   #page-top header p {
     width: 100%; } }

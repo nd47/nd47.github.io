@@ -13,6 +13,14 @@
         }
     } 
 }
+
+#hours{
+    img {
+        width: 80%;
+    }
+}
+
+
 #about {
     background : linear-gradient(to bottom right, #9c0300, #c5852b);
     a {
@@ -58,6 +66,13 @@ header {
             margin-left: 0;
         }
         background-position: center;
+    }
+
+
+    #hours{
+        img {
+            width: 50%;
+        }
     }
     
     #page-top {
